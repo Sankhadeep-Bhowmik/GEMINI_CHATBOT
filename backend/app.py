@@ -32,7 +32,7 @@ try:
     genai.configure(api_key=api_key)
 
     model = genai.GenerativeModel(model_name="models/gemini-1.5-pro-latest")
-    logger.info("✅ Gemini model initialized with models/gemini-1.5-pro-latest")
+    logger.info(" Gemini model initialized with models/gemini-1.5-pro-latest")
 
 except Exception as e:
     logger.error(f" Gemini API initialization failed: {str(e)}")
